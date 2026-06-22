@@ -1,4 +1,4 @@
-<img width="100%" src="LINK_DO_SEU_BANNER"/>
+<img width="100%" src="https://github.com/GabrielDS02/GabrielDS02/blob/main/assets/banner_git_hub.png"/>
 
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=800&lines=Full+Stack+Developer;ADS+%40+PUC+Minas;DevOps+Engineer;React+%7C+Next.js+%7C+Node.js;Building+Modern+Software+Solutions">
