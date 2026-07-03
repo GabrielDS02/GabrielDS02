@@ -91,6 +91,14 @@ Fundador da startup **Trybe**, projeto voltado para experiências imersivas no s
 
 ---
 
+## 📊 GitHub Metrics
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/github-metrics.svg"/>
+</div>
+
+---
+
 ## 🚀 Projetos em Destaque
 
 ### 🎓 Alcateia do Ensino
@@ -104,19 +112,6 @@ Plataforma educacional premium voltada para preparação ao **EPCAR** (Escola Pr
 API REST e front-end da área de membros da plataforma Alcateia do Ensino. Back-end desenvolvido com **Java Spring Boot** e front-end moderno integrado via REST.  
 🔒 Repositório privado &nbsp;|&nbsp; 🚧 Em desenvolvimento  
 `Java` `Spring Boot` `REST API` `JavaScript` `HTML5`
-
----
-
-### 🧠 IA para Enfermagem
-
-<a href="https://github.com/GabrielDS02/Trabalho_IA_Enfermagem">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GabrielDS02&repo=Trabalho_IA_Enfermagem&theme=tokyonight"/>
-</a>
-
-<br/><br/>
-
-Sistema baseado em Inteligência Artificial desenvolvido durante o curso técnico de Desenvolvimento de Sistemas, voltado para auxílio a estudantes da área da saúde.  
-`Python` `IA` `Desenvolvimento de Sistemas`
 
 ---
 
