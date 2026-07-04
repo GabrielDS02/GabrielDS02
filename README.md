@@ -10,34 +10,34 @@
   <img src="https://komarev.com/ghpvc/?username=GabrielDS02&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 </p>
 
-<h1 align="center">Olá 👋, eu sou Gabriel Silva</h1>
+<h1 align="center">Hello 👋, I'm Gabriel Silva</h1>
 
 <h3 align="center">Full Stack Developer | ADS @ PUC Minas | React • Next.js • Node.js • PHP</h3>
 
 ---
 
-## 🚀 Sobre Mim
+## 🚀 About Me
 
-Sou Desenvolvedor Full Stack com formação técnica em Informática e Desenvolvimento de Sistemas, atualmente graduando em **Análise e Desenvolvimento de Sistemas** pela PUC Minas.
+I'm a Full Stack Developer with a technical background in IT and Systems Development, currently pursuing a degree in **Systems Analysis and Development** at PUC Minas.
 
-Tenho experiência no desenvolvimento de aplicações web, APIs REST, sistemas corporativos e soluções digitais utilizando tecnologias modernas do ecossistema JavaScript, PHP e Java. Também possuo conhecimentos em infraestrutura, servidores Linux, Windows Server, virtualização, redes e boas práticas de engenharia de software.
+I have experience building web applications, REST APIs, enterprise systems and digital solutions using modern technologies from the JavaScript, PHP and Java ecosystems. I also possess knowledge in infrastructure, Linux and Windows Server, virtualization, networking and software engineering best practices.
 
-Fundador da startup **Trybe**, projeto voltado para experiências imersivas no setor da moda utilizando Realidade Virtual.
+Founder of **KRD (Kraken Research & Development Division)** and the startup **Trybe**, a project focused on immersive fashion experiences using Virtual Reality.
 
 ---
 
-## 🎯 Áreas de Atuação
+## 🎯 Areas of Expertise
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Desenvolvimento%20Web%20Full%20Stack-20232A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/APIs%20REST-6DB33F?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Sistemas%20Corporativos-ED8B00?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Banco%20de%20Dados-4479A1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Infraestrutura%20&%20Servidores-0078D6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Virtualização-FCC624?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Engenharia%20de%20Software-181717?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Full%20Stack%20Web%20Development-20232A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/REST%20APIs-6DB33F?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Enterprise%20Systems-ED8B00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Database-4479A1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Infrastructure%20&%20Servers-0078D6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Virtualization-FCC624?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Software%20Engineering-181717?style=for-the-badge" />
   <img src="https://img.shields.io/badge/UI%2FUX-FF4088?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Integração%20de%20Sistemas-2496ED?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Systems%20Integration-2496ED?style=for-the-badge" />
 </p>
 
 ---
@@ -65,7 +65,7 @@ Fundador da startup **Trybe**, projeto voltado para experiências imersivas no s
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" />
     </td>
     <td align="center" width="25%">
-      <strong>Banco de Dados</strong><br><br>
+      <strong>Database</strong><br><br>
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql" /><br>
       <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql" />
     </td>
@@ -112,45 +112,45 @@ Fundador da startup **Trybe**, projeto voltado para experiências imersivas no s
 
 ---
 
-## 🚀 Projetos em Destaque
+## 🚀 Featured Projects
 
 ### 🎓 Alcateia do Ensino
-Plataforma educacional premium voltada para preparação ao **EPCAR**. Sistema completo com autenticação via Bearer Token, área de membros exclusiva e UI futurista em tema roxo.  
-🔒 Repositório privado | 🌐 [alcateiadoensino.com.br](https://alcateiadoensino.com.br/)  
+Premium educational platform focused on preparation for **EPCAR** (Brazilian Air Force Cadet Preparatory School). Complete system with Bearer Token authentication, exclusive membership area and a futuristic purple-themed UI.  
+🔒 Private repository | 🌐 [alcateiadoensino.com.br](https://alcateiadoensino.com.br/)  
 `PHP` `JavaScript` `REST API` `MySQL` `CSS3`
 
 <br>
 
-### 🏗️ Plataforma de Membros — Alcateia do Ensino
-API REST e front-end da área de membros da plataforma Alcateia do Ensino. Back-end desenvolvido com **Java Spring Boot** e front-end moderno integrado via REST.  
-🔒 Repositório privado | 🚧 Em desenvolvimento  
+### 🏗️ Membership Platform — Alcateia do Ensino
+REST API and front-end for the Alcateia do Ensino membership area. Back-end developed with **Java Spring Boot** and a modern front-end integrated via REST.  
+🔒 Private repository | 🚧 Under development  
 `Java` `Spring Boot` `REST API` `JavaScript` `HTML5`
 
 <br>
 
-### 🧠 IA para Enfermagem
+### 🧠 AI for Nursing (IA para Enfermagem)
 <a href="https://github.com/GabrielDS02/Trabalho_IA_Enfermagem">
   <img align="center" src="https://github-readme-stats-seven-mu-89.vercel.app/api/pin/?username=GabrielDS02&repo=Trabalho_IA_Enfermagem&theme=tokyonight" />
 </a>
 
-Sistema baseado em Inteligência Artificial desenvolvido durante o curso técnico de Desenvolvimento de Sistemas, voltado para auxílio a estudantes da área da saúde.  
-`Python` `IA` `Desenvolvimento de Sistemas`
+Artificial Intelligence system developed during the Systems Development technical course, aimed at assisting healthcare students.  
+`Python` `AI` `Systems Development`
 
 <br>
 
 ### 🔧 MR Serviços
-Site profissional completo com front-end moderno desenvolvido para cliente real.  
-🔒 Repositório privado | 🌐 [mrservicos.netlify.app](https://mrservicos.netlify.app/)  
+Complete professional website with a modern front-end built for a real client.  
+🔒 Private repository | 🌐 [mrservicos.netlify.app](https://mrservicos.netlify.app/)  
 `HTML5` `CSS3` `JavaScript`
 
 ---
 
-## 📚 Atualmente Estudando
+## 📚 Currently Studying
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Engenharia%20de%20Software-181717?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Arquitetura%20de%20Sistemas-ED8B00?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/APIs%20REST%20&%20Microsserviços-6DB33F?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Software%20Engineering-181717?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Systems%20Architecture-ED8B00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/REST%20APIs%20&%20Microservices-6DB33F?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cloud%20Computing-2496ED?style=for-the-badge" />
   <img src="https://img.shields.io/badge/React%20&%20Next.js-000000?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Java%20&%20Spring%20Boot-ED8B00?style=for-the-badge" />
@@ -158,9 +158,9 @@ Site profissional completo com front-end moderno desenvolvido para cliente real.
 
 ---
 
-## 📊 Métricas Automáticas
+## 📊 Automated Metrics
 
-As métricas abaixo são geradas automaticamente a cada 12 horas via GitHub Actions ([lowlighter/metrics](https://github.com/lowlighter/metrics)).  
+The metrics below are automatically generated every 12 hours via GitHub Actions ([lowlighter/metrics](https://github.com/lowlighter/metrics)).  
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/github-metrics.svg" alt="GitHub Metrics" />
@@ -168,7 +168,7 @@ As métricas abaixo são geradas automaticamente a cada 12 horas via GitHub Acti
 
 ---
 
-## 📫 Contato
+## 📫 Contact
 
 <p align="center">
   <a href="mailto:silvamachadogabriel99@gmail.com">
@@ -185,5 +185,5 @@ As métricas abaixo são geradas automaticamente a cada 12 horas via GitHub Acti
 ---
 
 <div align="center">
-  ⭐ "Transformando ideias em software, software em soluções e soluções em resultados."
+  ⭐ "Turning ideas into software, software into solutions, and solutions into results."
 </div>
