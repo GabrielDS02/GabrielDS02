@@ -1,4 +1,4 @@
-name: Languages Metrics
+name: Metrics Language
 
 permissions:
   contents: write
@@ -6,68 +6,23 @@ permissions:
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "0 */12 * * *"
-
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Generate Languages Metrics
+      - name: Generate Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Arquivo gerado
-          filename: github-metrics-languages.svg
-
-          # Token
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Usuário
           user: GabrielDS02
 
-          # Não exibir estatísticas padrão
-          base: ""
-
-          # Tema
-          config_timezone: America/Sao_Paulo
-          config_display: large
-
-          #############################
-          # Plugin Languages
-          #############################
+          base: header, metadata
 
           plugin_languages: yes
-
-          # Quantidade de linguagens
-          plugin_languages_limit: 15
-
-          # Mostrar todas
-          plugin_languages_threshold: 0%
-
-          # Apenas linguagens de programação
-          plugin_languages_categories: programming
-
-          # Gráfico de linguagens mais usadas
           plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          plugin_languages_indepth: no
+          plugin_languages_analysis_timeout: 60
 
-          # Análise aprofundada
-          plugin_languages_indepth: yes
-
-          # Tempo máximo de análise
-          plugin_languages_analysis_timeout: 30
-
-          # Exibir porcentagens
-          plugin_languages_details: percentage
-
-          # Cores do GitHub
-          plugin_languages_colors: github
-
-          # Ignorar linguagens pequenas
-          plugin_languages_recent_days: 365
-
-          # Linguagens recentes
-          plugin_languages_recent_categories: programming
-
-          # Bytes mínimos
-          plugin_languages_bytes_threshold: 1000
+          committer_message: "Test languages plugin"
+          committer_branch: main
