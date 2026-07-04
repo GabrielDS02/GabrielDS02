@@ -160,10 +160,17 @@ Complete professional website with a modern front-end built for a real client.
 
 ## 📊 Automated Metrics
 
-The metrics below are automatically generated every 12 hours via GitHub Actions ([lowlighter/metrics](https://github.com/lowlighter/metrics)).  
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/github-metrics.svg" alt="GitHub Metrics" />
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/github-metrics.svg" alt="Metrics" />
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/github-metrics-languages.svg" alt="Most Used Languages" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
