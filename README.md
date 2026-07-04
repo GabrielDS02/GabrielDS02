@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=800&lines=Full+Stack+Developer;ADS+%40+PUC+Minas;React+%7C+Next.js+%7C+Node.js;PHP+%7C+Java+%7C+TypeScript;Building+Modern+Software+Solutions" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=1200&lines=Founder+%26+Developer+at+KRD+(Kraken+Research+%26+Development+Division);Full+Stack+Developer;ADS+%40+PUC+Minas;React+%7C+Next.js+%7C+Node.js;PHP+%7C+Java+%7C+TypeScript;Building+Modern+Software+Solutions" />
 </p>
 
 <p align="center">
@@ -50,6 +50,7 @@ Fundador da startup **Trybe**, projeto voltado para experiências imersivas no s
       <strong>Front-End</strong><br><br>
       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react" /><br>
       <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs" /><br>
+      <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /><br>
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript" /><br>
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript" /><br>
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5" /><br>
