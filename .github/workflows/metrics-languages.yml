@@ -6,7 +6,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"   # Atualiza a cada 12 horas (opcional)
+    - cron: "0 */12 * * *"
 
 jobs:
   github-metrics-languages:
@@ -18,21 +18,23 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: GabrielDS02
 
-          base: header, metadata   # Apenas cabeçalho, sem as outras seções
+          base: header, metadata
 
-          config_theme: tokyonight   # Tema escuro igual aos outros gráficos
-
-          # Plugin de linguagens
+          # Plugin de linguagens (idêntico ao teste que funcionou)
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
-          plugin_languages_indepth: yes
+          plugin_languages_indepth: no          # ← "no" igual ao teste bem-sucedido
           plugin_languages_analysis_timeout: 60
-          # plugin_languages_categories: programming   # Descomente se quiser só linguagens de programação
 
-          # Nome diferente para não sobrescrever o SVG principal
+          # Nome do arquivo de saída (diferente para não sobrescrever o principal)
           filename: github-metrics-languages.svg
+
+          # Tema escuro (opcional – remova se quiser manter o padrão transparente)
+          config_theme: tokyonight
 
           # Commit automático
           committer_message: "⚙️ Atualiza gráfico de linguagens"
-          committer_branch: main   # ou master, conforme sua branch padrão
+          committer_branch: main
+
+          
