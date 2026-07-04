@@ -32,3 +32,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: programming
+
+          # ✨ COMMIT AUTOMÁTICO DO SVG
+          committer_message: "⚙️ Atualiza métricas automáticas"
+          committer_branch: main   # <-- confira se sua branch principal é "main" ou "master"
