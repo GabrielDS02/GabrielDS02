@@ -158,20 +158,7 @@ Complete professional website with a modern front-end built for a real client.
 
 ---
 
-## 📊 Automated Metrics
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/github-metrics.svg" alt="Metrics" />
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/github-metrics-languages.svg" alt="Most Used Languages" />
-      </td>
-    </tr>
-  </table>
-</div>
 
 ---
 
