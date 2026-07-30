@@ -178,7 +178,7 @@ Complete professional website with a modern front-end built for a real client.
 ## 📫 Contact
 
 <p align="center">
-  <a href="mailto:silvamachadogabriel99@gmail.com">
+  <a href="mailto:gabrielsilvamachado@krakenrddivision.org">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail" />
   </a>
   <a href="https://linkedin.com/in/gabriel-silva-machado-989781333">
