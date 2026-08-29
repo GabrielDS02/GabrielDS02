@@ -186,7 +186,7 @@ Complete professional website with a modern front-end built for a real client.
   <a href="https://linkedin.com/in/gabriel-silva-machado-989781333">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" />
   </a>
-  <a href="https://instagram.com/031_gabrieell">
+  <a href="https://instagram.com/gs.machado_">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram" />
   </a>
 </p>
