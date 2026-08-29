@@ -49,6 +49,8 @@ Founder of **KRD (Kraken Research & Development Division)** and the startup **Tr
     <td align="center" width="25%">
       <strong>Front-End</strong><br><br>
       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react" /><br>
+      <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" /><br>
+     <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" /><br>   
       <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs" /><br>
       <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /><br>
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript" /><br>
