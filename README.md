@@ -119,39 +119,6 @@ Também sou **Co-Fundador & COO da TXSoft Engineering**, uma empresa de tecnolog
 
 ---
 
-## 🚀 Featured Projects
-
-### 🎓 Alcateia do Ensino
-Premium educational platform focused on preparation for **EPCAR** (Brazilian Air Force Cadet Preparatory School). Complete system with Bearer Token authentication, exclusive membership area and a futuristic purple-themed UI.  
-🔒 Private repository | 🌐 [alcateiadoensino.com.br](https://alcateiadoensino.com.br/)  
-`PHP` `JavaScript` `REST API` `MySQL` `CSS3`
-
-<br>
-
-### 🏗️ Membership Platform — Alcateia do Ensino
-REST API and front-end for the Alcateia do Ensino membership area. Back-end developed with **Java Spring Boot** and a modern front-end integrated via REST.  
-🔒 Private repository | 🚧 Under development  
-`Java` `Spring Boot` `REST API` `JavaScript` `HTML5`
-
-<br>
-
-### 🧠 AI for Nursing (IA para Enfermagem)
-<a href="https://github.com/GabrielDS02/Trabalho_IA_Enfermagem">
-  <img align="center" src="https://github-readme-stats-seven-mu-89.vercel.app/api/pin/?username=GabrielDS02&repo=Trabalho_IA_Enfermagem&theme=tokyonight" />
-</a>
-
-Artificial Intelligence system developed during the Systems Development technical course, aimed at assisting healthcare students.  
-`Python` `AI` `Systems Development`
-
-<br>
-
-### 🔧 MR Serviços
-Complete professional website with a modern front-end built for a real client.  
-🔒 Private repository | 🌐 [mrservicos.netlify.app](https://mrservicos.netlify.app/)  
-`HTML5` `CSS3` `JavaScript`
-
----
-
 ## 📚 Currently Studying
 
 <p align="center">
