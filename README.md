@@ -3,26 +3,28 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=1200&lines=Founder+%26+Developer+at+KRD+(Kraken+Research+%26+Development+Division);Full+Stack+Developer;ADS+%40+PUC+Minas;React+%7C+Next.js+%7C+Node.js;PHP+%7C+Java+%7C+TypeScript;Building+Modern+Software+Solutions" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=1200&lines=Co-Founder+%26+Developer+at+KRD+(Kraken+Research+%26+Development+Division);Co-Founder+%26+COO+at+TXSoft+Engineering;Full+Stack+Developer;ADS+%40+PUC+Minas;React+%7C+Angular+%7C+Next.js+%7C+Node.js;PHP+%7C+Java+%7C+TypeScript;Building+Modern+Software+Solutions" />
 </p>
+
+
+<!-- Parte de cima ja e a primeira vião a apresentação -->
+
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=GabrielDS02&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 </p>
 
-<h1 align="center">Hello 👋, I'm Gabriel Silva</h1>
-
-<h3 align="center">Full Stack Developer | ADS @ PUC Minas | React • Next.js • Node.js • PHP</h3>
-
 ---
 
 ## 🚀 About Me
 
-I'm a Full Stack Developer with a technical background in IT and Systems Development, currently pursuing a degree in **Systems Analysis and Development** at PUC Minas.
+Sou Desenvolvedor Full Stack, com formação técnica em TI e Desenvolvimento de Sistemas, atualmente cursando **Análise e Desenvolvimento de Sistemas** na PUC Minas.
 
-I have experience building web applications, REST APIs, enterprise systems and digital solutions using modern technologies from the JavaScript, PHP and Java ecosystems. I also possess knowledge in infrastructure, Linux and Windows Server, virtualization, networking and software engineering best practices.
+Tenho experiência no desenvolvimento de aplicações web, APIs REST, sistemas corporativos e soluções digitais, utilizando tecnologias modernas dos ecossistemas JavaScript, PHP e Java. Também possuo conhecimentos em infraestrutura, ambientes Linux e Windows Server, virtualização, redes, bancos de dados e boas práticas de engenharia de software.
 
-Founder of **KRD (Kraken Research & Development Division)** and the startup **Trybe**, a project focused on immersive fashion experiences using Virtual Reality.
+Sou **Co-Fundador da KRD (Kraken Research & Development Division)**, onde atuo contribuindo com tecnologia, desenvolvimento de software e projetos voltados à pesquisa e inovação.
+
+Também sou **Co-Fundador & COO da TXSoft Engineering**, uma empresa de tecnologia focada em engenharia de software e desenvolvimento de soluções digitais. Nessa função, contribuo com a estratégia técnica, operações, desenvolvimento de projetos e direcionamento geral da empresa.
 
 ---
 
