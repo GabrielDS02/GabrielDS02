@@ -1,0 +1,468 @@
+<svg width="1400" height="600" viewBox="0 0 1400 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Gabriel Silva — Full Stack Developer</title>
+  <desc id="desc">Animated GitHub profile banner presenting Gabriel Silva, his roles at KRD and TXSoft Engineering, his studies at PUC Minas, and his technology stack.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1400" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030712"/>
+      <stop offset="0.48" stop-color="#071426"/>
+      <stop offset="1" stop-color="#09051B"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="98" y1="90" x2="1220" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.48" stop-color="#6C63FF"/>
+      <stop offset="1" stop-color="#D946EF"/>
+    </linearGradient>
+
+    <linearGradient id="nameGradient" x1="90" y1="115" x2="675" y2="205" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.52" stop-color="#A5F3FC"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="translate(1087 267) rotate(90) scale(150)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#183B61"/>
+      <stop offset="0.56" stop-color="#0A1024"/>
+      <stop offset="1" stop-color="#050815"/>
+    </radialGradient>
+
+    <radialGradient id="cyanCloud" cx="0" cy="0" r="1" gradientTransform="translate(263 132) rotate(28) scale(500 230)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleCloud" cx="0" cy="0" r="1" gradientTransform="translate(1140 395) rotate(-25) scale(440 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#38BDF8" stroke-opacity="0.075" stroke-width="1"/>
+      <circle cx="1" cy="1" r="1" fill="#A5F3FC" fill-opacity="0.2"/>
+    </pattern>
+
+    <pattern id="microGrid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0V10" stroke="#94A3B8" stroke-opacity="0.035" stroke-width="0.5"/>
+    </pattern>
+
+    <filter id="cyanGlow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feFlood flood-color="#00E5FF" flood-opacity="0.75" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="purpleGlow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#8B5CF6" flood-opacity="0.75" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <clipPath id="bannerClip">
+      <rect width="1400" height="600" rx="28"/>
+    </clipPath>
+
+    <style>
+      text {
+        font-family: "Segoe UI", "Inter", "Arial", sans-serif;
+      }
+
+      .mono {
+        font-family: "Cascadia Code", "Fira Code", "Consolas", monospace;
+      }
+
+      .grid-drift {
+        animation: gridDrift 18s linear infinite;
+      }
+
+      .scan {
+        animation: scan 6s ease-in-out infinite;
+      }
+
+      .edge {
+        stroke-dasharray: 210 1200;
+        animation: edgeRun 9s linear infinite;
+      }
+
+      .pulse {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: pulse 2.2s ease-in-out infinite;
+      }
+
+      .float-a {
+        animation: floatA 5s ease-in-out infinite;
+      }
+
+      .float-b {
+        animation: floatB 6.5s ease-in-out infinite;
+      }
+
+      .spin {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: spin 24s linear infinite;
+      }
+
+      .spin-reverse {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: spinReverse 17s linear infinite;
+      }
+
+      .orbit {
+        transform-box: view-box;
+        transform-origin: 1087px 267px;
+        animation: spin 14s linear infinite;
+      }
+
+      .orbit-reverse {
+        transform-box: view-box;
+        transform-origin: 1087px 267px;
+        animation: spinReverse 20s linear infinite;
+      }
+
+      .dash {
+        stroke-dasharray: 7 12;
+        animation: dash 6s linear infinite;
+      }
+
+      .role {
+        opacity: 0;
+        animation: roleCycle 12s ease-in-out infinite;
+      }
+
+      .role-1 { opacity: 1; }
+      .role-2 { animation-delay: 4s; }
+      .role-3 { animation-delay: 8s; }
+
+      .cursor {
+        animation: blink 0.9s steps(2, end) infinite;
+      }
+
+      .chip {
+        animation: chipGlow 4s ease-in-out infinite;
+      }
+
+      .chip:nth-of-type(2n) { animation-delay: -1.3s; }
+      .chip:nth-of-type(3n) { animation-delay: -2.6s; }
+
+      .bar {
+        transform-origin: left;
+        animation: barLoad 4s ease-in-out infinite;
+      }
+
+      .star-1 { animation: twinkle 2.4s ease-in-out infinite; }
+      .star-2 { animation: twinkle 3.1s ease-in-out infinite reverse; }
+      .star-3 { animation: twinkle 4s ease-in-out infinite; }
+
+      @keyframes gridDrift {
+        to { transform: translate(42px, 42px); }
+      }
+
+      @keyframes scan {
+        0%, 8% { transform: translateY(-100px); opacity: 0; }
+        15% { opacity: 0.42; }
+        80% { opacity: 0.12; }
+        100% { transform: translateY(700px); opacity: 0; }
+      }
+
+      @keyframes edgeRun {
+        to { stroke-dashoffset: -1410; }
+      }
+
+      @keyframes pulse {
+        0%, 100% { transform: scale(0.82); opacity: 0.45; }
+        50% { transform: scale(1.22); opacity: 1; }
+      }
+
+      @keyframes floatA {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+
+      @keyframes floatB {
+        0%, 100% { transform: translateY(0) translateX(0); }
+        50% { transform: translateY(9px) translateX(-5px); }
+      }
+
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+
+      @keyframes spinReverse {
+        to { transform: rotate(-360deg); }
+      }
+
+      @keyframes dash {
+        to { stroke-dashoffset: -190; }
+      }
+
+      @keyframes roleCycle {
+        0%, 28% { opacity: 1; transform: translateY(0); }
+        33%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
+
+      @keyframes chipGlow {
+        0%, 100% { stroke-opacity: 0.28; }
+        50% { stroke-opacity: 0.82; }
+      }
+
+      @keyframes barLoad {
+        0%, 100% { transform: scaleX(0.3); opacity: 0.45; }
+        50% { transform: scaleX(1); opacity: 1; }
+      }
+
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.95; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .grid-drift, .scan, .edge, .pulse, .float-a, .float-b, .spin,
+        .spin-reverse, .orbit, .orbit-reverse, .dash, .cursor, .chip,
+        .bar, .star-1, .star-2, .star-3 { animation: none; }
+        .role { animation: none; opacity: 0; }
+        .role-1 { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#bannerClip)">
+    <rect width="1400" height="600" fill="url(#background)"/>
+    <rect width="1400" height="600" fill="url(#microGrid)"/>
+    <rect x="-42" y="-42" width="1484" height="684" fill="url(#grid)" class="grid-drift"/>
+    <ellipse cx="250" cy="130" rx="520" ry="265" fill="url(#cyanCloud)" class="float-a"/>
+    <ellipse cx="1165" cy="405" rx="470" ry="280" fill="url(#purpleCloud)" class="float-b"/>
+
+    <g opacity="0.8">
+      <circle cx="75" cy="63" r="1.8" fill="#67E8F9" class="star-1"/>
+      <circle cx="263" cy="76" r="1.2" fill="#C4B5FD" class="star-2"/>
+      <circle cx="472" cy="48" r="1.5" fill="#67E8F9" class="star-3"/>
+      <circle cx="705" cy="93" r="1.3" fill="#E879F9" class="star-1"/>
+      <circle cx="845" cy="40" r="1.8" fill="#67E8F9" class="star-2"/>
+      <circle cx="1010" cy="72" r="1.2" fill="#C4B5FD" class="star-3"/>
+      <circle cx="1288" cy="104" r="1.5" fill="#67E8F9" class="star-1"/>
+      <circle cx="1333" cy="347" r="1.5" fill="#E879F9" class="star-2"/>
+      <circle cx="856" cy="522" r="1.3" fill="#67E8F9" class="star-3"/>
+      <circle cx="496" cy="558" r="1.7" fill="#C4B5FD" class="star-2"/>
+      <circle cx="146" cy="525" r="1.3" fill="#67E8F9" class="star-1"/>
+    </g>
+
+    <rect x="1" y="1" width="1398" height="598" rx="27" stroke="#334155" stroke-opacity="0.65" stroke-width="2"/>
+    <rect x="1" y="1" width="1398" height="598" rx="27" stroke="url(#accent)" stroke-width="2" class="edge"/>
+
+    <g class="scan">
+      <rect x="0" y="0" width="1400" height="2" fill="url(#accent)" opacity="0.75" filter="url(#cyanGlow)"/>
+      <rect x="0" y="2" width="1400" height="50" fill="url(#accent)" opacity="0.025"/>
+    </g>
+
+    <!-- Left-side identity -->
+    <g>
+      <g transform="translate(82 66)">
+        <circle cx="7" cy="7" r="7" fill="#10B981" opacity="0.22" class="pulse"/>
+        <circle cx="7" cy="7" r="3.2" fill="#34D399" filter="url(#cyanGlow)"/>
+        <text x="24" y="12" fill="#6EE7B7" font-size="14" font-weight="700" letter-spacing="3" class="mono">SYSTEM ONLINE // BUILD MODE</text>
+      </g>
+
+      <text x="78" y="166" fill="url(#nameGradient)" font-size="76" font-weight="800" letter-spacing="-2.5" filter="url(#softShadow)">GABRIEL SILVA</text>
+      <rect x="81" y="186" width="585" height="3" rx="1.5" fill="#0F253D"/>
+      <rect x="81" y="186" width="390" height="3" rx="1.5" fill="url(#accent)" filter="url(#cyanGlow)" class="bar"/>
+
+      <g class="mono" font-size="23" font-weight="650" letter-spacing="1.2">
+        <text x="81" y="231" fill="#67E8F9" class="role role-1">&gt; FULL STACK DEVELOPER</text>
+        <text x="81" y="231" fill="#C4B5FD" class="role role-2">&gt; SOFTWARE ENGINEER</text>
+        <text x="81" y="231" fill="#F0ABFC" class="role role-3">&gt; TECH CO-FOUNDER</text>
+        <rect x="428" y="209" width="3" height="27" rx="1" fill="#67E8F9" class="cursor"/>
+      </g>
+
+      <text x="81" y="270" fill="#94A3B8" font-size="16" font-weight="500" letter-spacing="0.8" class="mono">BUILDING MODERN PRODUCTS • APIs • PLATFORMS • INFRASTRUCTURE</text>
+    </g>
+
+    <!-- Professional cards -->
+    <g filter="url(#softShadow)">
+      <g transform="translate(80 305)">
+        <rect width="235" height="88" rx="15" fill="#071524" fill-opacity="0.88" stroke="#22D3EE" stroke-opacity="0.35"/>
+        <path d="M0 16C0 7.163 7.163 0 16 0H219C227.837 0 235 7.163 235 16V18H0V16Z" fill="#22D3EE" fill-opacity="0.07"/>
+        <circle cx="18" cy="9" r="3" fill="#22D3EE"/>
+        <text x="18" y="42" fill="#E2E8F0" font-size="20" font-weight="800" letter-spacing="1.4">KRD</text>
+        <text x="18" y="64" fill="#67E8F9" font-size="11" font-weight="700" letter-spacing="1.1" class="mono">CO-FOUNDER • DEVELOPER</text>
+        <text x="18" y="79" fill="#64748B" font-size="10" class="mono">RESEARCH &amp; DEVELOPMENT</text>
+      </g>
+
+      <g transform="translate(331 305)">
+        <rect width="270" height="88" rx="15" fill="#0C1024" fill-opacity="0.9" stroke="#8B5CF6" stroke-opacity="0.4"/>
+        <path d="M0 16C0 7.163 7.163 0 16 0H254C262.837 0 270 7.163 270 16V18H0V16Z" fill="#8B5CF6" fill-opacity="0.09"/>
+        <circle cx="18" cy="9" r="3" fill="#A78BFA"/>
+        <text x="18" y="42" fill="#E2E8F0" font-size="20" font-weight="800" letter-spacing="0.5">TXSOFT</text>
+        <text x="18" y="64" fill="#C4B5FD" font-size="11" font-weight="700" letter-spacing="1.1" class="mono">CO-FOUNDER • COO</text>
+        <text x="18" y="79" fill="#64748B" font-size="10" class="mono">SOFTWARE ENGINEERING</text>
+      </g>
+
+      <g transform="translate(617 305)">
+        <rect width="215" height="88" rx="15" fill="#150A20" fill-opacity="0.88" stroke="#D946EF" stroke-opacity="0.34"/>
+        <path d="M0 16C0 7.163 7.163 0 16 0H199C207.837 0 215 7.163 215 16V18H0V16Z" fill="#D946EF" fill-opacity="0.08"/>
+        <circle cx="18" cy="9" r="3" fill="#E879F9"/>
+        <text x="18" y="42" fill="#E2E8F0" font-size="20" font-weight="800" letter-spacing="0.5">PUC MINAS</text>
+        <text x="18" y="64" fill="#F0ABFC" font-size="11" font-weight="700" letter-spacing="1.1" class="mono">ADS • SOFTWARE</text>
+        <text x="18" y="79" fill="#64748B" font-size="10" class="mono">SYSTEMS &amp; ARCHITECTURE</text>
+      </g>
+    </g>
+
+    <!-- Technology matrix -->
+    <g transform="translate(80 425)">
+      <text x="0" y="0" fill="#64748B" font-size="12" font-weight="800" letter-spacing="3.5" class="mono">CORE TECHNOLOGY MATRIX</text>
+      <path d="M225 -4H752" stroke="#334155" stroke-width="1" stroke-dasharray="3 7"/>
+
+      <g transform="translate(0 18)" class="chip">
+        <rect width="86" height="34" rx="9" fill="#071824" stroke="#22D3EE"/>
+        <text x="43" y="22" text-anchor="middle" fill="#CFFAFE" font-size="12" font-weight="700" class="mono">REACT</text>
+      </g>
+      <g transform="translate(96 18)" class="chip">
+        <rect width="96" height="34" rx="9" fill="#0B1020" stroke="#94A3B8"/>
+        <text x="48" y="22" text-anchor="middle" fill="#F8FAFC" font-size="12" font-weight="700" class="mono">NEXT.JS</text>
+      </g>
+      <g transform="translate(202 18)" class="chip">
+        <rect width="102" height="34" rx="9" fill="#190A16" stroke="#F43F5E"/>
+        <text x="51" y="22" text-anchor="middle" fill="#FECDD3" font-size="12" font-weight="700" class="mono">ANGULAR</text>
+      </g>
+      <g transform="translate(314 18)" class="chip">
+        <rect width="122" height="34" rx="9" fill="#09172C" stroke="#3B82F6"/>
+        <text x="61" y="22" text-anchor="middle" fill="#BFDBFE" font-size="12" font-weight="700" class="mono">TYPESCRIPT</text>
+      </g>
+      <g transform="translate(446 18)" class="chip">
+        <rect width="92" height="34" rx="9" fill="#0B1A12" stroke="#22C55E"/>
+        <text x="46" y="22" text-anchor="middle" fill="#BBF7D0" font-size="12" font-weight="700" class="mono">NODE.JS</text>
+      </g>
+      <g transform="translate(548 18)" class="chip">
+        <rect width="66" height="34" rx="9" fill="#14132A" stroke="#818CF8"/>
+        <text x="33" y="22" text-anchor="middle" fill="#C7D2FE" font-size="12" font-weight="700" class="mono">PHP</text>
+      </g>
+      <g transform="translate(624 18)" class="chip">
+        <rect width="70" height="34" rx="9" fill="#22120A" stroke="#F97316"/>
+        <text x="35" y="22" text-anchor="middle" fill="#FED7AA" font-size="12" font-weight="700" class="mono">JAVA</text>
+      </g>
+      <g transform="translate(704 18)" class="chip">
+        <rect width="128" height="34" rx="9" fill="#0D1C10" stroke="#65A30D"/>
+        <text x="64" y="22" text-anchor="middle" fill="#D9F99D" font-size="12" font-weight="700" class="mono">SPRING BOOT</text>
+      </g>
+
+      <g transform="translate(0 62)" class="chip">
+        <rect width="88" height="34" rx="9" fill="#0B1626" stroke="#38BDF8"/>
+        <text x="44" y="22" text-anchor="middle" fill="#BAE6FD" font-size="12" font-weight="700" class="mono">PYTHON</text>
+      </g>
+      <g transform="translate(98 62)" class="chip">
+        <rect width="90" height="34" rx="9" fill="#0B1724" stroke="#2496ED"/>
+        <text x="45" y="22" text-anchor="middle" fill="#BAE6FD" font-size="12" font-weight="700" class="mono">DOCKER</text>
+      </g>
+      <g transform="translate(198 62)" class="chip">
+        <rect width="78" height="34" rx="9" fill="#1E1A07" stroke="#EAB308"/>
+        <text x="39" y="22" text-anchor="middle" fill="#FEF08A" font-size="12" font-weight="700" class="mono">LINUX</text>
+      </g>
+      <g transform="translate(286 62)" class="chip">
+        <rect width="82" height="34" rx="9" fill="#0A1624" stroke="#3B82F6"/>
+        <text x="41" y="22" text-anchor="middle" fill="#BFDBFE" font-size="12" font-weight="700" class="mono">MYSQL</text>
+      </g>
+      <g transform="translate(378 62)" class="chip">
+        <rect width="122" height="34" rx="9" fill="#0B1424" stroke="#60A5FA"/>
+        <text x="61" y="22" text-anchor="middle" fill="#BFDBFE" font-size="12" font-weight="700" class="mono">POSTGRESQL</text>
+      </g>
+      <g transform="translate(510 62)" class="chip">
+        <rect width="66" height="34" rx="9" fill="#1A0E0A" stroke="#F97316"/>
+        <text x="33" y="22" text-anchor="middle" fill="#FED7AA" font-size="12" font-weight="700" class="mono">GIT</text>
+      </g>
+      <g transform="translate(586 62)" class="chip">
+        <rect width="112" height="34" rx="9" fill="#0D1120" stroke="#94A3B8"/>
+        <text x="56" y="22" text-anchor="middle" fill="#E2E8F0" font-size="12" font-weight="700" class="mono">REST APIs</text>
+      </g>
+      <g transform="translate(708 62)" class="chip">
+        <rect width="124" height="34" rx="9" fill="#1D0D1E" stroke="#E879F9"/>
+        <text x="62" y="22" text-anchor="middle" fill="#F5D0FE" font-size="12" font-weight="700" class="mono">CLOUDFLARE</text>
+      </g>
+    </g>
+
+    <!-- Right-side engineering core -->
+    <g>
+      <path d="M862 115H940L976 151" stroke="#22D3EE" stroke-opacity="0.3" class="dash"/>
+      <circle cx="862" cy="115" r="3" fill="#22D3EE"/>
+      <path d="M1273 428H1324L1355 397" stroke="#A78BFA" stroke-opacity="0.35" class="dash"/>
+      <circle cx="1355" cy="397" r="3" fill="#A78BFA"/>
+
+      <circle cx="1087" cy="267" r="192" stroke="#334155" stroke-opacity="0.55" stroke-width="1" stroke-dasharray="3 10"/>
+      <g class="spin">
+        <circle cx="1087" cy="267" r="168" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="180 330 64 480" opacity="0.8"/>
+        <circle cx="1087" cy="99" r="5" fill="#22D3EE" filter="url(#cyanGlow)"/>
+        <circle cx="1244" cy="326" r="4" fill="#D946EF" filter="url(#purpleGlow)"/>
+      </g>
+
+      <g class="spin-reverse">
+        <circle cx="1087" cy="267" r="138" stroke="#8B5CF6" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="90 145 32 600" opacity="0.72"/>
+        <path d="M1087 122L1094 135H1080L1087 122Z" fill="#A78BFA"/>
+      </g>
+
+      <circle cx="1087" cy="267" r="112" fill="url(#core)" stroke="#38BDF8" stroke-opacity="0.46" stroke-width="1.5" filter="url(#softShadow)"/>
+      <path d="M1087 170L1171 218V316L1087 364L1003 316V218L1087 170Z" fill="#071426" stroke="url(#accent)" stroke-width="2" opacity="0.95"/>
+      <path d="M1087 186L1157 226V307L1087 348L1017 307V226L1087 186Z" stroke="#22D3EE" stroke-opacity="0.18" stroke-dasharray="4 7"/>
+
+      <text x="1087" y="278" text-anchor="middle" fill="url(#nameGradient)" font-size="76" font-weight="900" letter-spacing="-5" filter="url(#cyanGlow)">GS</text>
+      <text x="1087" y="310" text-anchor="middle" fill="#67E8F9" font-size="11" font-weight="800" letter-spacing="4" class="mono">ENGINEERING</text>
+
+      <g class="orbit">
+        <circle cx="1087" cy="75" r="22" fill="#071824" stroke="#22D3EE" stroke-opacity="0.7"/>
+        <text x="1087" y="81" text-anchor="middle" fill="#67E8F9" font-size="14" font-weight="800" class="mono">&lt;/&gt;</text>
+      </g>
+      <g class="orbit-reverse">
+        <circle cx="1279" cy="267" r="22" fill="#160B22" stroke="#D946EF" stroke-opacity="0.72"/>
+        <text x="1279" y="272" text-anchor="middle" fill="#F0ABFC" font-size="11" font-weight="800" class="mono">API</text>
+      </g>
+
+      <g transform="translate(865 151)">
+        <rect width="118" height="45" rx="11" fill="#071524" stroke="#22D3EE" stroke-opacity="0.34"/>
+        <circle cx="18" cy="22" r="5" fill="#22D3EE" class="pulse"/>
+        <text x="33" y="26" fill="#BAE6FD" font-size="11" font-weight="750" class="mono">FULL STACK</text>
+      </g>
+
+      <g transform="translate(1218 126)">
+        <rect width="112" height="45" rx="11" fill="#110B22" stroke="#8B5CF6" stroke-opacity="0.38"/>
+        <circle cx="18" cy="22" r="5" fill="#A78BFA" class="pulse"/>
+        <text x="33" y="26" fill="#DDD6FE" font-size="11" font-weight="750" class="mono">DEVOPS</text>
+      </g>
+
+      <g transform="translate(870 373)">
+        <rect width="125" height="45" rx="11" fill="#071524" stroke="#38BDF8" stroke-opacity="0.34"/>
+        <circle cx="18" cy="22" r="5" fill="#38BDF8" class="pulse"/>
+        <text x="33" y="26" fill="#BAE6FD" font-size="11" font-weight="750" class="mono">DATABASES</text>
+      </g>
+
+      <g transform="translate(1198 390)">
+        <rect width="135" height="45" rx="11" fill="#160B22" stroke="#D946EF" stroke-opacity="0.36"/>
+        <circle cx="18" cy="22" r="5" fill="#E879F9" class="pulse"/>
+        <text x="33" y="26" fill="#F5D0FE" font-size="11" font-weight="750" class="mono">ARCHITECTURE</text>
+      </g>
+    </g>
+
+    <!-- Footer protocol -->
+    <g transform="translate(904 516)">
+      <rect width="410" height="42" rx="12" fill="#050B17" fill-opacity="0.86" stroke="#475569" stroke-opacity="0.45"/>
+      <text x="20" y="18" fill="#64748B" font-size="9" font-weight="800" letter-spacing="2.6" class="mono">DEVELOPMENT PROTOCOL</text>
+      <text x="20" y="32" fill="#CBD5E1" font-size="10" font-weight="700" letter-spacing="1.1" class="mono">IDEA → ARCHITECTURE → SOFTWARE → IMPACT</text>
+      <circle cx="386" cy="21" r="4" fill="#22C55E" class="pulse"/>
+    </g>
+  </g>
+</svg>
