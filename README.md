@@ -26,7 +26,7 @@
 
 I'm a **Full Stack Developer** and a **Systems Analysis and Development student at PUC Minas**, with a technical background in IT and Systems Development. I build web applications, REST APIs, enterprise systems and digital solutions by combining software development, architecture, infrastructure and product thinking.
 
-My experience spans the **JavaScript/TypeScript, PHP, Java and Python** ecosystems, as well as databases, Linux and Windows Server environments, virtualization, networking and software engineering best practices.
+My experience spans the **JavaScript/TypeScript, .NET/C#, PHP, Java and Python** ecosystems, as well as databases, cloud platforms, Linux and Windows Server environments, virtualization, networking and software engineering best practices.
 
 - **CEO & CTO — Gabriel Soluções em Software:** technical leadership, product development and digital solutions.
 - **Co-Founder & Developer — KRD:** technology, software development, research and innovation.
@@ -102,6 +102,9 @@ A responsive professional website developed for a real client, focused on servic
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C Sharp" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/REST_APIs-0F172A?style=flat-square&logo=fastapi&logoColor=22D3EE" alt="REST APIs" />
 </p>
@@ -111,6 +114,8 @@ A responsive professional website developed for a real client, focused on servic
 <p>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="Microsoft SQL Server" />
+  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Microsoft Azure" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000000" alt="Linux" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
@@ -175,4 +180,3 @@ A responsive professional website developed for a real client, focused on servic
 <div align="center">
   <strong>Turning ideas into software, software into solutions, and solutions into results.</strong>
 </div>
-
