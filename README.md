@@ -1,17 +1,20 @@
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/assets/banner_fundo_trnasp.png" />
+  <img
+    width="100%"
+    src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/assets/github-profile-header.svg"
+    alt="Gabriel Silva — Full Stack Developer, Software Engineer and Tech Co-Founder"
+  />
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=1200&lines=Co-Founder+%26+Developer+at+KRD+(Kraken+Research+%26+Development+Division);Co-Founder+%26+COO+at+TXSoft+Engineering;Full+Stack+Developer;ADS+%40+PUC+Minas;React+%7C+Angular+%7C+Next.js+%7C+Node.js;PHP+%7C+Java+%7C+TypeScript;Building+Modern+Software+Solutions" />
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&random=false&width=1050&height=55&lines=Co-Founder+%26+Developer+at+KRD;Co-Founder+%26+COO+at+TXSoft+Engineering;Full+Stack+Developer+%7C+Software+Engineer;React+%7C+Next.js+%7C+Angular+%7C+Node.js;Java+%7C+Spring+Boot+%7C+PHP+%7C+Python;Building+Modern+Software+Solutions"
+    alt="Animated introduction: roles and technologies"
+  />
 </p>
 
-
-<!-- Parte de cima ja e a primeira vião a apresentação -->
-
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=GabrielDS02&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=GabrielDS02&label=PROFILE+VIEWS&color=6C63FF&style=for-the-badge" alt="Profile views" />
 </p>
 
 ---
