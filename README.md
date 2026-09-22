@@ -9,79 +9,79 @@
 <p align="center">
   <img
     src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&random=false&width=1050&height=55&lines=CEO+%26+CTO+at+Gabriel+Solu%C3%A7%C3%B5es+em+Software;Co-Founder+%26+Developer+at+KRD;Co-Founder+%26+COO+at+TXSoft+Engineering;Full+Stack+Developer+%7C+Software+Engineer;ADS+%40+PUC+Minas;React+%7C+Next.js+%7C+Angular+%7C+Node.js;Java+%7C+Spring+Boot+%7C+PHP+%7C+Python;Building+Modern+Software+Solutions"
-    alt="Apresentação animada dos cargos e das tecnologias de Gabriel Silva"
+    alt="Animated introduction presenting Gabriel Silva's roles and technologies"
   />
 </p>
 
 <p align="center">
   <img
     src="https://komarev.com/ghpvc/?username=GabrielDS02&label=PROFILE+VIEWS&color=6C63FF&style=for-the-badge"
-    alt="Visualizações do perfil"
+    alt="Profile views"
   />
 </p>
 
 ---
 
-## 🚀 Sobre mim
+## 🚀 About Me
 
-Sou **Desenvolvedor Full Stack** e estudante de **Análise e Desenvolvimento de Sistemas na PUC Minas**, com formação técnica em TI e Desenvolvimento de Sistemas. Atuo na criação de aplicações web, APIs REST, sistemas corporativos e soluções digitais, unindo desenvolvimento de software, arquitetura, infraestrutura e visão de produto.
+I'm a **Full Stack Developer** and a **Systems Analysis and Development student at PUC Minas**, with a technical background in IT and Systems Development. I build web applications, REST APIs, enterprise systems and digital solutions by combining software development, architecture, infrastructure and product thinking.
 
-Minha experiência abrange os ecossistemas **JavaScript/TypeScript, PHP, Java e Python**, além de bancos de dados, ambientes Linux e Windows Server, virtualização, redes e boas práticas de engenharia de software.
+My experience spans the **JavaScript/TypeScript, PHP, Java and Python** ecosystems, as well as databases, Linux and Windows Server environments, virtualization, networking and software engineering best practices.
 
-- **CEO & CTO — Gabriel Soluções em Software:** liderança técnica, desenvolvimento de produtos e soluções digitais.
-- **Co-Founder & Developer — KRD:** tecnologia, desenvolvimento de software, pesquisa e inovação.
-- **Co-Founder & COO — TXSoft Engineering:** operações, estratégia técnica e desenvolvimento de projetos.
-- **ADS — PUC Minas:** formação focada em desenvolvimento, arquitetura e engenharia de software.
+- **CEO & CTO — Gabriel Soluções em Software:** technical leadership, product development and digital solutions.
+- **Co-Founder & Developer — KRD:** technology, software development, research and innovation.
+- **Co-Founder & COO — TXSoft Engineering:** operations, technical strategy and project development.
+- **Systems Analysis and Development — PUC Minas:** focused on software development, architecture and engineering.
 
-> Transformo necessidades reais em software organizado, confiável e preparado para evoluir.
+> I turn real-world needs into well-structured, reliable software built to evolve.
 
 ---
 
-## 🚀 Projetos em destaque
+## 🚀 Featured Projects
 
 ### 🎓 Alcateia do Ensino
 
-Plataforma educacional voltada à preparação para a **EPCAR**, com área exclusiva para membros, autenticação por Bearer Token e uma interface moderna desenvolvida para a experiência dos estudantes.
+An educational platform designed to help students prepare for **EPCAR**, featuring an exclusive members area, Bearer Token authentication and a modern interface focused on the learning experience.
 
 `PHP` `JavaScript` `REST API` `MySQL` `HTML5` `CSS3`
 
-🔒 Repositório privado · 🌐 [Acessar alcateiadoensino.com.br](https://alcateiadoensino.com.br/)
+🔒 Private repository · 🌐 [Visit alcateiadoensino.com.br](https://alcateiadoensino.com.br/)
 
 <br>
 
-### 🏗️ Plataforma de membros — Alcateia do Ensino
+### 🏗️ Membership Platform — Alcateia do Ensino
 
-Nova arquitetura para a área de membros da plataforma, com back-end em **Java e Spring Boot** e front-end integrado por meio de uma API REST.
+A new architecture for the platform's membership area, featuring a **Java and Spring Boot** back end and a modern front end connected through a REST API.
 
 `Java` `Spring Boot` `REST API` `JavaScript` `HTML5`
 
-🔒 Repositório privado · 🚧 Em desenvolvimento
+🔒 Private repository · 🚧 Under development
 
 <br>
 
-### 🧠 IA para Enfermagem
+### 🧠 AI for Nursing
 
-Sistema de Inteligência Artificial criado durante o curso técnico em Desenvolvimento de Sistemas, com o objetivo de auxiliar estudantes da área da saúde.
+An Artificial Intelligence system developed during my technical program in Systems Development to support healthcare students in their learning process.
 
-`Python` `Inteligência Artificial` `Desenvolvimento de Sistemas`
+`Python` `Artificial Intelligence` `Systems Development`
 
-📂 [Ver repositório no GitHub](https://github.com/GabrielDS02/Trabalho_IA_Enfermagem)
+📂 [View repository on GitHub](https://github.com/GabrielDS02/Trabalho_IA_Enfermagem)
 
 <br>
 
 ### 🔧 MR Serviços
 
-Site profissional responsivo desenvolvido para um cliente real, com foco em apresentação de serviços, identidade visual e experiência de navegação.
+A responsive professional website developed for a real client, focused on service presentation, visual identity and a clear browsing experience.
 
 `HTML5` `CSS3` `JavaScript` `Responsive Design`
 
-🔒 Repositório privado · 🌐 [Acessar demonstração](https://mrservicos.netlify.app/)
+🔒 Private repository · 🌐 [View live website](https://mrservicos.netlify.app/)
 
 ---
 
-## 🛠️ Stack tecnológica
+## 🛠️ Technology Stack
 
-### Front-end
+### Front End
 
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
@@ -95,7 +95,7 @@ Site profissional responsivo desenvolvido para um cliente real, com foco em apre
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-### Back-end
+### Back End
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
@@ -106,7 +106,7 @@ Site profissional responsivo desenvolvido para um cliente real, com foco em apre
   <img src="https://img.shields.io/badge/REST_APIs-0F172A?style=flat-square&logo=fastapi&logoColor=22D3EE" alt="REST APIs" />
 </p>
 
-### Dados, DevOps e infraestrutura
+### Data, DevOps & Infrastructure
 
 <p>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
@@ -121,17 +121,17 @@ Site profissional responsivo desenvolvido para um cliente real, com foco em apre
 
 ---
 
-## 📚 Em desenvolvimento contínuo
+## 📚 Continuous Learning
 
-- Engenharia de Software e Arquitetura de Sistemas
-- APIs REST, integrações e microsserviços
-- Cloud Computing, containers e infraestrutura
-- React, Next.js e aplicações modernas para a web
-- Java, Spring Boot e sistemas corporativos
+- Software Engineering and Systems Architecture
+- REST APIs, systems integration and microservices
+- Cloud computing, containers and infrastructure
+- React, Next.js and modern web applications
+- Java, Spring Boot and enterprise systems
 
 ---
 
-## 📊 Métricas automatizadas
+## 📊 Automated Metrics
 
 <div align="center">
   <table>
@@ -140,14 +140,14 @@ Site profissional responsivo desenvolvido para um cliente real, com foco em apre
         <img
           width="100%"
           src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/github-metrics.svg"
-          alt="Métricas gerais do perfil de Gabriel Silva"
+          alt="Gabriel Silva's GitHub profile metrics"
         />
       </td>
       <td align="center" width="45%">
         <img
           width="100%"
           src="https://raw.githubusercontent.com/GabrielDS02/GabrielDS02/main/github-metrics-languages.svg"
-          alt="Linguagens mais utilizadas por Gabriel Silva"
+          alt="Gabriel Silva's most used languages"
         />
       </td>
     </tr>
@@ -156,11 +156,11 @@ Site profissional responsivo desenvolvido para um cliente real, com foco em apre
 
 ---
 
-## 📫 Contato
+## 📫 Contact
 
 <p align="center">
   <a href="mailto:gabrielsilvamachado@krakenrddivision.org">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Enviar email" />
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send an email" />
   </a>
   <a href="https://linkedin.com/in/gabriel-silva-machado-989781333">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
