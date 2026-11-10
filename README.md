@@ -24,13 +24,20 @@
 
 ## 🚀 About Me
 
-I'm a **Full Stack Developer** and a **Systems Analysis and Development student at PUC Minas**, with a technical background in IT and Systems Development. I build web applications, REST APIs, enterprise systems and digital solutions by combining software development, architecture, infrastructure and product thinking.
+I'm a Full Stack Developer and a Systems Analysis and Development student at PUC Minas, with a technical background in IT and Systems Development. I build web applications, REST APIs, enterprise systems and digital solutions by combining software development, architecture, infrastructure and product thinking.
 
-My experience spans the **JavaScript/TypeScript, .NET/C#, PHP, Java and Python** ecosystems, as well as databases, cloud platforms, Linux and Windows Server environments, virtualization, networking and software engineering best practices.
+My experience spans the JavaScript/TypeScript, .NET/C#, PHP, Java and Python ecosystems, as well as databases, cloud platforms, Linux and Windows Server environments, virtualization, networking and software engineering best practices.
+
+I currently lead and contribute to technology initiatives as:
 
 - **CEO & CTO — Gabriel Soluções em Software:** technical leadership, product development and digital solutions.
-- **Co-Founder & Developer — KRD:** technology, software development, research and innovation.
-- **Co-Founder & COO — TXSoft Engineering:** operations, technical strategy and project development.
+
+- **Co-founder & CTO — TXSoft Engineering:** technical strategy, operations and project development.
+
+- **Co-founder & Co-Team Leader — TXSoft Open-source:** open-source development, team coordination alongside the Team Leader, and community-driven projects.
+
+- **Co-founder & Developer — KRD:** technology, software development, research and innovation.
+
 - **Systems Analysis and Development — PUC Minas:** focused on software development, architecture and engineering.
 
 > I turn real-world needs into well-structured, reliable software built to evolve.
